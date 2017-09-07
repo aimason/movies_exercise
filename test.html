@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Exercise</title>
+</head>
+
+<body>
+    <h1>Movies opening this week</h1>
+        <template class="film">
+			<article class="list-film">
+				<h3 class="title">data-name</h3>
+				<p class="genres">film-genre</p>
+				<p class="film-length"><span>film-length</span> min</p>
+                <p class="description">film-description</p>
+                <p class="film-director">Directed by <span>film-director</span></p>
+                <p class="film-actors">Starring <span>film-actors</span></p>
+			</article>
+		</template>
+
+    <script>
+        let template = document.querySelector('.film').content;
+
+        function getData() {
+            fetch("movies.json").then(function (response) {
+            return response.json();
+        }).then(function (json) {
+            return show(json);
+        });
+    };
+    function show(json){
+        json.forEach(function (film){
+            console.log(film.title);
+        let clone = template.cloneNode(true);
+
+        clone.querySelector(".title").textContent = film.title;
+
+        })
+    }
+        getData()
+    </script>
+</body>
+</html>

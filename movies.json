@@ -1,0 +1,33 @@
+[
+    {
+        "title": "It",
+        "length": 135,
+        "rating": "R",
+        "director": "Andy Muschietti",
+        "actors": "Bill Skarsgård, Jaeden Lieberher, Finn Wolfhard, Sophia Lillis",
+        "description": "A group of bullied kids band together when a monster, taking the appearance of a clown, begins hunting children.",
+        "metascore": 69,
+        "genres": ["drama", "horror"]
+
+	},
+    {
+        "title": "Home Again",
+        "length": "97",
+        "rating": "PG-13",
+        "director": "Hallie Meyers-Shyer",
+        "actors": "Nat Wolff, Reese Witherspoon, Lake Bell, Michael Sheen",
+        "description": "Life for a single mom in Los Angeles takes an unexpected turn when she allows three young guys to move in with her.",
+        "metascore": 38,
+        "genres": ["comedy", "drama", "romance"]
+	},
+    {
+        "title": "Rememory",
+        "length": "111",
+        "rating": "PG-13",
+        "director": "Mark Palansky",
+        "actors": "Peter Dinklage, Matt Ellis, Jordana Largy, Martin Donovan",
+        "description": "The widow of a wise professor stumbles upon one of his inventions that's able to record and play a person's memory.",
+        "metascore": 0,
+        "genres": ["drama", "mystery", "sci-fi"]
+	}
+]
